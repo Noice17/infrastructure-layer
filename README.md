@@ -1,8 +1,6 @@
 # About
 
-The **Infrastructure Layer** is used to support microservice-based projects.
-This repository contains the core infrastructure components required to build and run a distributed microservice architecture. It acts as the **foundation layer** for service discovery, centralized configuration, and request routing.
-The goal of this project is to serve as a **driver repository** for building and experimenting with **Spring Boot microservice architectures**.
+The **Infrastructure Layer** repository contains the core infrastructure components required to build and run a distributed microservice architecture. It acts as the **foundation layer** for service discovery, centralized configuration, and request routing.
 
 ---
 ## Purpose of This Repository
@@ -11,8 +9,8 @@ This repository exists to:
 
 - Serve as the **core infrastructure for microservice projects**
 - Provide **reusable infrastructure components**
-- Act as a **learning and experimentation environment for microservice architecture**
-- Support other services such as the **User Management System**
+- Simulate an **enterprise-level architecture** for distributed systems.
+
 ---
 
 ## Architecture Overview
@@ -36,9 +34,6 @@ Responsibilities:
 - Enables service-to-service communication
 - Allows dynamic scaling of services
 
-Technology:
-- Spring Cloud Netflix Eureka
-
 ---
 
 ### Config Server
@@ -49,9 +44,6 @@ Responsibilities:
 - Centralized configuration repository
 - Environment-based configuration
 - Dynamic configuration updates
-
-Technology:
-- Spring Cloud Config Server
 
 ---
 
@@ -65,9 +57,6 @@ Responsibilities:
 - Logging and monitoring
 - Security enforcement
 
-Technology:
-- Spring Cloud Gateway
-
 ---
 
 ## Tech Stack
@@ -77,5 +66,7 @@ Technology:
 - Spring Cloud
 - Netflix Eureka
 - Spring Cloud Config
-
+- Gradle
+  
 ---
+
